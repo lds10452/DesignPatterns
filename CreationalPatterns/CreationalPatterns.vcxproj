@@ -139,9 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FactoryMethod.cpp" />
+    <ClCompile Include="1SimpleFactory.cpp" />
+    <ClCompile Include="3AbstractFactory.cpp" />
+    <ClCompile Include="2FactoryMethod.cpp" />
+    <ClCompile Include="5Builder.cpp" />
+    <ClCompile Include="6Prototype.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="4Singleton.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CreationalPatterns.h" />

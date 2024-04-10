@@ -1,7 +1,13 @@
 #include "CreationalPatterns.h"
 int main()
 {
-	FactoryMethodTest();
+	//SimpleFactoryTest();
+	//FactoryMethodTest();
+	//AbstractFactoryTest();
+	//SingletonTest();
+	//BuilderTest();
+	PrototypeTest();
+
 	system("pause");
 	return 0;
 }
