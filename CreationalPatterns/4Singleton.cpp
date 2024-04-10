@@ -44,6 +44,7 @@ LogSingleton* LogSingleton::m_pInstance = NULL;
 
 void SingletonTest()
 {
+    cout << ".......start SingletonTest........" << endl;
     LogSingleton* pUserA = LogSingleton::Instance();
     pUserA->Write("Hello");
 

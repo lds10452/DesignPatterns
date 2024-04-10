@@ -71,6 +71,7 @@ public:
     }
 };
 void AbstractFactoryTest() {
+    cout << ".......start AbstractFactoryTest........" << endl;
     Factory* FactoryWood = new WoodFactory();
     // 木工厂生产木桌
     Desk* DeskWood = FactoryWood->CreateDesk();

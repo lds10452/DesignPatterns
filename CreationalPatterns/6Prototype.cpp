@@ -53,6 +53,7 @@ public:
 
 void PrototypeTest()
 {
+    cout << ".......start PrototypeTest........" << endl;
     Juice* pJuice = new AppleJuice(); // 基类指针指向派生类对象
     pJuice->Show();
     /*

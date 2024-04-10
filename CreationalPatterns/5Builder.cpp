@@ -125,6 +125,7 @@ private:
 
 void BuilderTest()
 {
+    cout << ".......start BuilderTest........" << endl;
     Director MyDirector;
     // 根据导演的不同需求，分别设置不同的建造者，获得满足需求的图形
     GreenCircleBuilder BuilderGC; // 绿色圆形的建造者
