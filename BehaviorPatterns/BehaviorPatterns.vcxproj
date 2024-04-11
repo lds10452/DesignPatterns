@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6f00d0c7-5b8d-41db-b568-b23873095c84}</ProjectGuid>
-    <RootNamespace>CreationalPatterns</RootNamespace>
+    <ProjectGuid>{1412ae72-6796-477f-9d04-f948e0e1bcda}</ProjectGuid>
+    <RootNamespace>BehaviorPatterns</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>1CreationalPatterns</ProjectName>
+    <ProjectName>3BehaviorPatterns</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,16 +140,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1SimpleFactory.cpp" />
-    <ClCompile Include="3AbstractFactory.cpp" />
-    <ClCompile Include="2FactoryMethod.cpp" />
-    <ClCompile Include="5Builder.cpp" />
-    <ClCompile Include="6Prototype.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="4Singleton.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CreationalPatterns.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
