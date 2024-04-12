@@ -140,6 +140,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10Visitor.cpp" />
+    <ClCompile Include="11Interpreter.cpp" />
+    <ClCompile Include="1ChainOfResponsibility.cpp" />
+    <ClCompile Include="2Command.cpp" />
+    <ClCompile Include="3Iterator.cpp" />
+    <ClCompile Include="4Mediator.cpp" />
+    <ClCompile Include="5Memento.cpp" />
+    <ClCompile Include="6Observer.cpp" />
+    <ClCompile Include="7State.cpp" />
+    <ClCompile Include="8Strategy.cpp" />
+    <ClCompile Include="9TemplateMethod.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BehaviorPatterns.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
